@@ -1,0 +1,22 @@
+{
+  "name": "learn-electron",
+  "version": "1.0.0",
+  "description": "Learning Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cat4848/learn-electron.git"
+  },
+  "author": "Catalin Pirtiu - catalinrol@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cat4848/learn-electron/issues"
+  },
+  "homepage": "https://github.com/Cat4848/learn-electron#readme",
+  "devDependencies": {
+    "electron": "^33.2.0"
+  }
+}
