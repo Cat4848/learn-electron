@@ -8,3 +8,10 @@ const serverResponse = async () => {
   ipcTest.innerHTML = response;
 };
 serverResponse();
+
+const windowMaximized = document.querySelector("#maximize");
+const displayMaximizedMessage = async () => {
+  const response = await window.versions.maximize();
+  windowMaximized.innerHTML = response;
+};
+displayMaximizedMessage();

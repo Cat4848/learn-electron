@@ -11,6 +11,10 @@ const createWindow = () => {
   });
 
   win.loadFile("index.html");
+  const contents = win.webContents;
+  win.on("maximize", () => {
+    ipcMain.handle("maximize", () => "window maximized");
+  });
 };
 
 app.whenReady().then(() => {
